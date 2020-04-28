@@ -1,0 +1,41 @@
+{
+	"name": "front",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"@types/node": "^13.7.0",
+		"axios": "^0.19.2",
+		"next": "^9.2.1",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"styled-components": "^5.0.0"
+	},
+	"devDependencies": {
+		"@types/react": "^16.9.19",
+		"@types/react-dom": "^16.9.5",
+		"@types/styled-components": "^4.4.2",
+		"@typescript-eslint/eslint-plugin": "^2.13.0",
+		"@typescript-eslint/parser": "^2.13.0",
+		"@zeit/next-typescript": "^1.1.1",
+		"babel-eslint": "^10.0.3",
+		"babel-plugin-styled-components": "^1.10.7",
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb": "^18.0.1",
+		"eslint-config-prettier": "^6.7.0",
+		"eslint-config-react-app": "^5.1.0",
+		"eslint-plugin-flowtype": "^4.5.2",
+		"eslint-plugin-import": "^2.19.1",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-prettier": "^3.1.2",
+		"eslint-plugin-react": "^7.17.0",
+		"eslint-plugin-react-hooks": "^2.3.0",
+		"typescript": "^3.7.5"
+	},
+	"scripts": {
+		"start": "next start -p 80",
+		"dev": "next -p 3000",
+		"lint": "eslint ./pages --ext .js,.ts,.tsx",
+		"build": "next build"
+	}
+}

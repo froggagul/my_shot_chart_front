@@ -1,0 +1,10 @@
+yarn.lock
+node_modules
+yarn-error.log
+.next
+package-lock.json
+.DS_Store
+.vscode
+new.pem
+config.tsx
+config.js
